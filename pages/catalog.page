@@ -1,0 +1,21 @@
+<apex:page standardController="Merchandise__c" recordSetVar="products" >
+<apex:pageBlock title="Our Products">
+<apex:pageblockSection >
+<apex:pageblockTable value="{!products}" var="pitem">
+<apex:column headerValue="Product">
+<apex:outputText value="{!pitem.name}"/>
+</apex:column>
+<apex:column headerValue="Description">
+<apex:outputfield value="{!pitem.Description__c}"/>
+</apex:column>
+<apex:column headerValue="Price">
+<apex:outputField value="{!pitem.Price__c}"/>
+</apex:column>
+</apex:pageblockTable>
+</apex:pageblockSection>
+</apex:pageBlock>
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page: catalog
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

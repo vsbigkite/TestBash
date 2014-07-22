@@ -1,0 +1,9 @@
+<apex:page StandardController="Account">
+ <apex:pageBlock title="My Account Contacts">
+ <apex:pageBlockTable value="{! account.Contacts}" var="item">
+ <apex:column value="{! item.Name}"/>
+ <apex:column value="{!item.Phone}"/>
+ </apex:pageBlockTable>
+ </apex:pageBlock>
+ <apex:outputLink value="{! $Page.AccountDisplay}">I am me!</apex:outputLink>
+</apex:page>
