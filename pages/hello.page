@@ -1,0 +1,12 @@
+<apex:page >
+  <apex:form >
+      <apex:pageBlock title="A Block Title">
+      <apex:pageBlockSection title="A Block Section">
+      "I'm here"
+      </apex:pageBlockSection>
+      <apex:pageblockSection title="A new Section">
+      {! $User.FirstName}
+      </apex:pageblockSection>
+      </apex:pageBlock>
+  </apex:form>
+</apex:page>
