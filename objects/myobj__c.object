@@ -53,12 +53,12 @@
     <enableReports>false</enableReports>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Test New Object</label>
+    <label>myobj</label>
     <nameField>
-        <label>Test New Object Name</label>
+        <label>myobj Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Test New Objects</pluralLabel>
+    <pluralLabel>myobjs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
